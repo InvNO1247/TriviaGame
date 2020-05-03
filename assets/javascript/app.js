@@ -1,15 +1,15 @@
 
-var card = $("#quiz-area");
+let card = $("#quiz-area");
 
 // Question set
-var questions = [{
+let questions = [{
     question: "What actress was first offered the lead roll in La La Land?",
     answers: ["Jennifer Lawrence", "Alicia Vikander", "Emma Watson", "Brie Larson"],
     correctAnswer: "Emma Watson"
 }, {
     question: "What actor turned down the roll of Forrest in Forrest Gump?",
     answers: ["George Clooney ", "John Travolta", "Sean Penn", "Kenneth Branagh"],
-    correctAnswer: "John travolta"
+    correctAnswer: "John Travolta"
 }, {
     question: "What actress passed on Titanic?",
     answers: ["Neve Campbell", "Reese Witherspoon", "Naomi Watts", "Gwyneth Paltrow"],
@@ -25,7 +25,7 @@ var questions = [{
 }, {
     question: "Luckily for Bruce Willis this actor turned down Die Hard",
     answers: ["Tom Selleck", "Sam Elliott", "Richard Gere", "Harrison Ford"],
-    correctAnswer: "Fresh"
+    correctAnswer: "Richard Gere"
 }, {
     question: "This actor turned down Gladiator because of his age",
     answers: ["Mel Gibson", "Liam Neeson", "Ralph Fiennes", "Hugh Jackman"],
@@ -37,9 +37,9 @@ var questions = [{
 }];
 
 // Variable that will hold the setInterval
-var timer;
+let timer;
 
-var game = {
+let game = {
 
     correct: 0,
     incorrect: 0,
