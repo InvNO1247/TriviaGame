@@ -23,7 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-https://invno1247.github.io/TriviaGame/(url) and ![Image](src)
+Link
+*[Giftastic](https://invno1247.github.io/TriviaGame/)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
